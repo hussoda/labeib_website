@@ -1,0 +1,68 @@
+@use 'var';
+
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: var.$font_stack;
+    margin: 0 !important;
+}
+
+.display1 {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.display2 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.display3 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.display4 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2.25rem; 
+}
+
+h3 {
+    font-size: 2rem; 
+}
+
+h4 {
+    font-size: 1.75rem; 
+}
+
+h5 {
+    font-size: 1.5rem; 
+}
+
+h6 {
+    font-size: 1.25rem; 
+}
+
+.paragraph1 {
+    font-size: 18px;
+    line-height: 1.75em;
+}
+
+.paragraph2 {
+    font-size: 1rem;
+}
+
+.paragraph3 {
+    font-size: 14px;
+}
+
+.paragraph4 {
+    font-size: 12px;
+}

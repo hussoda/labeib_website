@@ -1,0 +1,60 @@
+@use 'var';
+
+html {
+    background-color: var.$surface;
+}
+
+.container {
+    display: flex;
+    width: 100%;    
+    padding: 3em 2em;
+    box-sizing: border-box;
+}
+
+.hero {
+    flex-direction: column;
+    padding-top: 10em;
+    color: var.$brand;
+    p { 
+        color: var.$blacked_out; 
+        inline-size: 50%;
+    }
+}
+
+.footer {
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    h6 { color: var.$brand; font-weight: 400;}
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .hero {
+        p { 
+            color: var.$blacked_out; 
+            inline-size: 100%;
+        }
+    }
+
+    /* portrait phones */
+}
